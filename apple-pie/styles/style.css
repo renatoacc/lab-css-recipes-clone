@@ -1,0 +1,76 @@
+body, h1, h2, h3, h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+header img{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+}
+
+h1{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   color: white;
+   font-size: 40pt;
+}
+
+.info-recipe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-recipe p{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.info-recipe img{
+    width: 300px;
+}
+
+hr{
+    width: 90%;
+}
+
+h4{
+    margin-left: 50px;
+    margin-bottom: 0;
+    font-size: 16pt;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    margin: 0 10px;
+    list-style-type: none;
+    text-align: justify;
+    width: 90%;
+}
+
+.ingredients img{
+    width: 300px;
+    align-self: center;
+}
